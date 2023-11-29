@@ -28,8 +28,8 @@ class MyScene extends Phaser.Scene {
   // 毎フレーム実行される繰り返し処理
     update() {
         this.player1.angle += 5;
-        this.player1.setVelocityY(-70);
-        this.player1.setVelocityX(70);
+        this.player1.setVelocityY(-75);
+        this.player1.setVelocityX(75);
         if (this.player1.x >= 650) 
         {
             this.player1.x = D_WIDTH/2;
